@@ -47,7 +47,7 @@ function Courses() {
             </div>
             <SearchBox placeholder="Search Courses..." searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
             {courses.length === 0 ? (
-                <p>No departments found</p>
+                <p>No courses found</p>
             ) : (
                 <MasterList resources={courses}
                              currentPage={currentPage}

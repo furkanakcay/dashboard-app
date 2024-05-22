@@ -46,7 +46,7 @@ function CourseDetail({ entity }) {
             </div>
             <SearchBox placeholder={`Search Students in ${entity.name}...`} searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
             {students.length === 0 ? (
-                <p>No employees found in {entity.name}</p>
+                <p>No students found in {entity.name}</p>
             ) : (
                 <DetailTable resources={students}
                          currentPage={currentPage}
